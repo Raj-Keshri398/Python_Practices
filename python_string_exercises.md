@@ -10,3 +10,4 @@ print(' '.join(con_String))
 ```python
 con_string2 = 'Coding', 'For', 'All'
 print(' '.join(con_string2))
+
