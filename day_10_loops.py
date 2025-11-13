@@ -126,3 +126,81 @@ companies = {'google', 'facebook', 'deloitte', 'hcl', 'tcs'}
 for company in companies:
     print(company)
 
+
+# --------------------------------------Break and Continue - Part 2----------------------------------
+
+# * 1. Short reminder: Break: We use break when we like to stop our loop before it is completed.
+
+print("------------------Break---------------------")
+numbers = (0, 1, 2, 3, 4, 5)
+for number in numbers:
+    print(number)
+    if number == 3:
+        break
+
+
+# * 2. Continue: We use continue when we like to skip some of the steps in the iteration of the loop.
+
+print("-----------------Continue---------------------------")
+numbers = (0,1,2,3,4,5)
+for number in numbers:
+    print(number)
+    if number == 3:
+        continue
+    print('Next number should be ', number + 1) if number != 5 else print("loop's end") # for short hand conditions need both if and else statements
+print('outside the loop')
+
+
+# ------------------------------------The Range Function -----------------------------------
+'''
+The range() function is used list of numbers. The range(start, end, step) takes three parameters: 
+starting, ending and increment. By default it starts from 0 and the increment is 1. The range sequence 
+needs at least 1 argument (end). Creating sequences using range.
+
+'''
+
+print("----------------------- print range in list --------------------------")
+print("")
+lst = list(range(11))
+print(lst)
+
+print("---------------------- print range in set --------------------")
+print("")
+st = set(range(1, 11)) # 2 arguments indicate start and end of the sequence, step set to default 1
+print(st)
+
+print("-------------------------- print range in list with argument ---------------------")
+print("")
+lst = list(range(0, 11, 2))
+print("list with 2 steps : ", lst)
+
+print("-------------------------- print range in list with argument ---------------------")
+print("")
+st = set(range(1, 11, 2))
+print("Set with 2 steps : ", st)
+
+# ---------------------------------Nested For Loop -------------------------------------
+# We can write loops inside a loop. 
+
+# nested loop with dictonary
+
+print("")
+print("---------------nested loop with disctonary ---------------------")
+person_dict = {
+    'first_name': 'Asabeneh',
+    'last_name': 'Yetayeh',
+    'age': 250,
+    'country': 'Finland',
+    'is_marred': True,
+    'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+    'address': {
+        'street': 'Space street',
+        'zipcode': '02210'
+    }
+}
+
+for key in person_dict:
+    if key == 'skills':
+        for skill in person_dict['skills']:
+            print(skill)
+
