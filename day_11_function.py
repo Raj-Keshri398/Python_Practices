@@ -135,3 +135,109 @@ def sum_of_numbers(n):
 
 print(sum_of_numbers(10)) # 55
 print(sum_of_numbers(100)) # 5050
+
+# Two Parameter: A function may or may not have a parameter or parameters. A function may also have two or more parameters. 
+# If our function takes parameters we should call it with arguments. Let us check a function with two parameters:
+
+def generate_full_name (first_name, last_name):
+    space = ' '
+    full_name = first_name + space + last_name
+    return full_name
+
+print(generate_full_name('Saurabh', 'keshri'))
+
+def sum_of_two_num(first_num, second_num):
+    sum = first_num + second_num
+    return sum
+print("Sum of Two Number is ", sum_of_two_num(3 , 7))
+
+def calculate_age(current_year, birth_year):
+    age = current_year - birth_year
+    return age
+print("Current Age is ", calculate_age(2025, 1999))
+
+
+def weight_of_object (mass, gravity):
+    weight = str(mass * gravity) + ' N' # the value has to be changed to a string first
+    return weight
+print('Weight of an object in Newtons: ', weight_of_object(100, 9.81))
+
+
+# --------------------------------- Function Returning a Value - Part 2 ---------------------------------------
+
+# * Returning String 
+
+def names(name):
+    return name
+print(names('shivam'))
+
+# * Returning Value
+
+def subtraction_two_num(first_num, second_num):
+    subtract = first_num - second_num
+    return subtract
+print("Subtraction two no. values : ", subtraction_two_num(45, 21))
+
+# * Returning Boolen
+
+def is_even(n):
+    if n % 2 == 0:
+        return True
+    return False
+print(is_even(45))
+print(is_even(46))
+
+# * Returning List
+
+def find_even_num(n):
+    even= []
+    for i in range(n + 1):
+        if i % 2 == 0:
+            even.append(i)
+    return even
+print(find_even_num(11))
+
+
+'''
+Arbitrary Number of Arguments
+
+
+If we do not know the number of arguments we pass to our function, we can create a function which can take arbitrary number of 
+arguments by adding * before the parameter name.
+'''
+
+def sum_all_nums(*nums):
+    total = 0
+    for num in nums:
+        total += num
+    return total
+print(sum_all_nums(3, 5, 6, 7, 1)) # numberious of numbers pass in only one agrumwnt of the function using * sign which is called arbitrary
+
+def generate_groups (team,*args):
+    print(team)
+    for i in args:
+        print(i)
+print(generate_groups('Team-1','Asabeneh','Brook','David','Eyob'))
+
+
+#You can pass functions around as parameters
+def square_number (n):
+    return n * n * n
+
+def do_something(f, x):
+    return f(x)
+print(do_something(square_number, 3)) # 27
+
+
+# three function use f key word to print another fucntion data
+def square(n):
+    return n * n
+
+def cube(n):
+    return n * n * n
+
+def apply_twice(f, x):
+    return f(f(x))   # f ke andar f()
+
+print(apply_twice(square, 2))
+
