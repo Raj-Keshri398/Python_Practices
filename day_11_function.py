@@ -241,3 +241,172 @@ def apply_twice(f, x):
 
 print(apply_twice(square, 2))
 
+
+# =============================================== Exercises: Level 1 =========================================================
+
+# 1. Declare a function add_two_numbers. It takes two parameters and it returns a sum.
+
+def add_two_numbers(first_num, second_num):
+    sum = first_num + second_num
+    return sum
+print(f'Sum of {3} and {4} is', add_two_numbers(3, 4))
+
+# 2. Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates area_of_circle.
+
+def area_of_circle(r):
+    PI = 3.14
+    area = PI * r ** 2
+    return area
+print("Area of Cicle is : ", area_of_circle(30))
+
+# 3. Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. 
+# Check if all the list items are number types. If not do give a reasonable feedback
+
+def sum_all_numbers(*nums):
+    total = 0
+    for item in nums:
+        # check if item is int or float
+        if not isinstance(item, (int, float)):
+            return f"Error: This item is '{item}' not a number"
+        total += item
+    return total
+print("Sum all Numbers : ", sum_all_numbers(3 , 4, 5, 6, 1, 2))
+print("Sum all numbers : ", sum_all_numbers(3, 'hell', 4, 5, 'hjdf'))
+
+
+def add_all_nums(*args):
+    total = 0
+    for x in args:
+        # check if item is any string value then skip and add only number value
+        if isinstance(x, (int, float)):
+            total += x
+    return total
+
+print(add_all_nums(1, 2, "hello", 4))  # Output: 7
+
+
+def add_all_nums(*args):
+    total = 0
+    for x in args:
+        if isinstance(x, (int, float)):
+            total += x
+        else:
+            print(f"Error: '{x}' is not a number.")
+    return total
+
+print("Total =", add_all_nums(1, 2, "hello", 4))
+
+
+# 4. Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, 
+# convert_celsius_to-fahrenheit.
+
+def convert_celsius_to_fahrenheit(c):
+    fahrenheit = (c * 9/5) + 32
+    return fahrenheit
+print("Conver the C degree to F degree : ", convert_celsius_to_fahrenheit(40))
+
+# 5. Write a function called check-season, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
+
+def check_season(month):
+    month = month.lower()
+
+    if month in ['may', 'june', 'july']:
+        return "Summer"
+    elif month in ['august', 'september', 'october']:
+        return "Autumn"
+    elif month in ['november', 'december', 'january']:
+        return "Winter"
+    elif month in ['february', 'march', 'april']:
+        return "Spring"
+    else:
+        return "Invalid month"
+
+print("Season is:", check_season('august'))
+
+#  6. Write a function called calculate_slope which return the slope of a linear equation
+
+def calculate_slope(x1, y1, x2, y2):
+    if x2 - x1 == 0:
+        return "Slope is undefined (vertical line)."
+    
+    slope = (y2 - y1) / (x2 - x1)
+    return slope
+
+print(calculate_slope(2, 3, 6, 15))
+
+# 7. Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic 
+# equation, solve_quadratic_eqn.
+
+def solve_quadratic_eqn(a, b, c):
+    # Equation: ax² + bx + c = 0
+    # Formula: x = (-b ± √(b² − 4ac)) / (2a)
+
+    d = b*b - 4*a*c     # b² - 4ac
+
+    if d < 0:
+        return "No real solutions"
+
+    x1 = (-b + (d)**0.5) / (2*a)
+    x2 = (-b - (d)**0.5) / (2*a)
+
+    return x1, x2
+
+print("Result:", solve_quadratic_eqn(1, 5, 6))
+
+
+# 8. Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list.
+
+def print_list(items):
+    for element in items:
+        print(element)
+print_list([1, 2, 3, "hello", 5])
+
+
+'''
+9. Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).
+
+print(reverse_list([1, 2, 3, 4, 5]))
+# [5, 4, 3, 2, 1]
+print(reverse_list1(["A", "B", "C"]))
+# ["C", "B", "A"]
+# 
+# '''
+
+def reverse_list(items):
+    new_rev_list = []
+    for i in range(len(items) - 1, -1, -1):
+        new_rev_list.append(items[i])
+    print(new_rev_list)
+
+reverse_list([1, 2, 3, 4, 5, 6])
+reverse_list(['A', 'B', 'C'])
+
+# 10. Declare a function named capitalize_list_items. It takes a list as a parameter and it returns a capitalized list of items
+
+def capitalize_list_item(items):
+    new_list = []
+    for item in items:
+        new_list.append(item.capitalize())
+    return new_list
+
+print(capitalize_list_item(['mango', 'banana', 'apple']))
+
+'''
+11. Declare a function named add_item. It takes a list and an item parameters. It returns a list with the item added at the end.
+
+food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print(add_item(food_staff, 'Meat'))     # ['Potato', 'Tomato', 'Mango', 'Milk','Meat']
+numbers = [2, 3, 7, 9]
+print(add_item(numbers, 5))      [2, 3, 7, 9, 5]
+
+'''
+
+def add_item(items, item):
+    items.append(item)
+    return items
+
+food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print(add_item(food_staff, 'Meat'))
+
+numbers = [2, 3, 7, 9]
+print(add_item(numbers, 5))
