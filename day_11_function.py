@@ -401,6 +401,7 @@ print(add_item(numbers, 5))      [2, 3, 7, 9, 5]
 
 '''
 
+print("------------------------Apeend items -----------------------------------------")
 def add_item(items, item):
     items.append(item)
     return items
@@ -410,3 +411,359 @@ print(add_item(food_staff, 'Meat'))
 
 numbers = [2, 3, 7, 9]
 print(add_item(numbers, 5))
+
+
+'''
+12. Declare a function named remove_item. It takes a list and an item parameters. It returns a list with the item removed from it.
+
+food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+print(remove_item(food_staff, 'Mango'))  # ['Potato', 'Tomato', 'Milk'];
+numbers = [2, 3, 7, 9]
+print(remove_item(numbers, 3))  # [2, 7, 9]
+'''
+
+print("-------------------------------- Remove Items -------------------------------------")
+
+def remove_item(lists, item):
+    if item in lists:
+        lists.remove(item)
+        return lists
+    else:
+        print(f"{item} not found in list")
+        return lists
+
+food_staff = ['Potato', 'Tomato', 'Mango', 'Milk']
+
+print(remove_item(food_staff, 'Mango'))  
+numbers = [2, 3, 7, 9]
+print(remove_item(numbers, 3))           
+
+# using pop() to remove the item from list
+popped_item = food_staff.pop()
+print("Popped:", popped_item)
+print(food_staff)
+
+'''
+13. Declare a function named sum_of_numbers. It takes a number parameter and it adds all the numbers in that range.
+
+print(sum_of_numbers(5))  # 15
+print(sum_of_numbers(10)) # 55
+print(sum_of_numbers(100)) # 5050
+
+'''
+print("--------------------------- Sum all Number ---------------------------")
+def sum_of_numbers(number):
+    sum = 0
+    for i in range(number, 0 , -1):
+        sum += i
+    return sum
+print(sum_of_numbers(5))  # 15
+print(sum_of_numbers(10)) # 55
+print(sum_of_numbers(100)) # 5050
+
+
+# 14. Declare a function named sum_of_odds. It takes a number parameter and it adds all the odd numbers in that range.
+print("------------------- Sum of Odds ---------------------")
+def sum_of_odds(number):
+    sum = 0
+    for i in range(number, 0, -1):
+        if i % 2 != 0:
+            sum += i
+    return sum
+    
+print(sum_of_odds(5))
+
+# 15. Declare a function named sum_of_even. It takes a number parameter and it adds all the even numbers in that - range.
+
+print("------------------- Sum of Even ---------------------")
+def sum_of_even(number):
+    sum = 0
+    for i in range(number, 0, -1):
+        if i % 2 == 0:
+            sum += i
+    return sum
+    
+print(sum_of_even(5))
+
+
+# ============================================== Exercises: Level 2 ===================================================
+
+'''
+1. Declare a function named evens_and_odds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+
+    print(evens_and_odds(100))
+    # The number of odds are 50.
+    # The number of evens are 51.
+
+'''
+print("---------------------------- Even and odds count -------------------------")
+def evens_and_odds(positive_integer):
+    if positive_integer < 0:
+        return "Error, program do not take the negative value"
+    
+    count_even = 0
+    count_odd = 0
+    for i in range(1, positive_integer + 1):
+        if i % 2 == 0:
+            count_even += 1
+        else:
+            count_odd += 1
+    return f"The number os odds are {count_odd}\nThe number os evens are {count_even}"
+print(evens_and_odds(101))
+
+# 2. Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
+
+print("------------------ Factorial ---------------------------")
+def factorial(n):
+    f = 1
+    for i in range(n, 0, -1):
+        f = f * i
+    return f"Factorial number {n} is {f}"
+
+print(factorial(5))
+
+# 3. Call your function is_empty, it takes a parameter and it checks if it is empty or not
+
+print("-----------------------Check is_empty string, value, list, tuple, dict etc ------------------------")
+def is_empty(value):
+    if value:
+        return "It is not empty"
+    else:
+        return "It is empty"
+
+print(is_empty(""))     # empty string
+print(is_empty([]))     # empty list
+print(is_empty({}))     # empty dict
+print(is_empty(()))     # empty tuple
+print(is_empty("hello"))# not empty its a string
+print(is_empty([1,2,3]))# not empty its a list fill with value
+
+'''
+4. Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, 
+calculate_variance, calculate_std (standard deviation).
+'''
+data = [2, 4, 4, 4, 5, 5, 7, 9] # sum : 40 , len: 8
+
+# 1. Mean= Number of observations / Sum of all observations
+print("----- Mean ----")
+def calculate_mean(numbers):
+    n = len(numbers)
+    sums = sum(numbers)
+    return sums/n
+print("Mean : ", calculate_mean(data)) # mean : 5
+
+
+# 2. median
+print("----- Median -----")
+def calculate_median(numbers):
+    nums = sorted(numbers)
+    n = len(numbers)
+    mid = n // 2
+
+    # Even case
+    if n % 2 == 0:
+        median_value = (nums[mid - 1] + nums[mid]) / 2
+        print(f"Median: {median_value}")
+        print("Frequency: Not applicable (median is an average)")
+        return median_value
+
+    # Odd case
+    else:
+        median_value = nums[mid]
+        freq = nums.count(median_value)
+        print(f"Median: {median_value}")
+        print(f"Frequency: {freq}")
+        return median_value
+print("mediam : ", calculate_median(data)) # mediam : 4.5
+    
+# 3. mode
+print("----- Mode -----")
+from collections import Counter
+
+def calculate_mode(numbers):
+    freq = Counter(numbers)
+    highest_freq = max(freq.values())
+    modes = []
+    for k , v in freq.items():
+        if v == highest_freq:
+            modes.append(k)
+
+     # Mode and Count (frequency) print karna
+    if len(modes) == 1:
+        mode_value = modes[0]
+        print(f"{mode_value} came {highest_freq} times")
+        return mode_value
+    else:
+        print("Multiple modes found:")
+        for m in modes:
+            print(f"{m} came {freq[m]} times")
+        return modes
+print("Mode : ", calculate_mode(data)) # mode : 4
+
+# 4. Range
+print("----- Calculate Range -----")
+def calculate_range(numbers):
+    return max(numbers) / min(numbers)
+print("Range: " , calculate_range(data)) # range: 4.5
+
+# 5. Variance
+
+print("----- Variance -----")
+def calculate_variance(numbers):
+    mean = calculate_mean(numbers)
+
+    total = 0 
+    for x in numbers:
+        diff = x - mean # difference between mean value and loop wise number
+        square_diff = diff ** 2 # make square 
+        total += square_diff # add values
+    
+    variance = total / len(numbers)
+    return variance
+print("Variance : ", calculate_variance(data))
+
+
+# calculate_std (standard deviation)
+print("----- calculate_std (standard deviation) -----")
+
+def calculate_std(numbers):
+    variance = calculate_variance(numbers)
+
+    std = variance ** 0.5
+    return std
+print("Standard deviation : ", calculate_std(data))
+
+print("---- using math.sqrt to calculate standard deviation ----")
+import math
+def calculate_stds(numbers): 
+    return math.sqrt(calculate_variance(numbers))
+print("Standard deviation using math.sqrt : ", calculate_stds(data))
+
+
+
+# ==========================================  Exercises: Level 3  ==========================================
+
+# 1. Write a function called is_prime, which checks if a number is prime
+print("----- prime number -------")
+def is_prime(number):
+    if number < 2:
+        print(f"Number {number} is not prime")
+
+    is_prime = True
+    for i in range(2, number):
+        if number % i == 0:
+            is_prime = False
+            break
+    
+    if is_prime:
+        print(f"{number} is prime number")
+    else:
+        print(f"{number} is not prime")
+
+is_prime(22)
+is_prime(25)
+is_prime(23)
+
+
+# 2. Write a functions which checks if all items are unique in the list.
+
+print("------------ check list has unique value or not ---------------")
+# 1st method
+def all_unique(num):
+    return len(num) == len(set(num))
+print(all_unique([1, 2, 3, 4]))      # True
+print(all_unique([1, 2, 2, 3]))      # False
+
+# 2nd method
+def all_unique(nums):
+    unique_set = set()
+    for item in nums:
+        if item in unique_set:
+            return False
+        unique_set.add(item)
+    return True
+print(all_unique([4, 5, 6]))        # True
+print(all_unique([4, 5, 4]))        # False
+
+# 3. Write a function which checks if all the items of the list are of the same data type
+
+print({"------------- check list has same datatype or not-------------"})
+def all_same_datatype(lst):
+    if not lst:
+        return True
+    
+    first_index = type(lst[0])
+    for item in lst:
+        if type(item) != first_index:
+            return False
+    return True
+print(all_same_datatype([1, 2, 3]))          # True, because int datatype
+print(all_same_datatype([1, 2.5, 3]))        # False, because int and float datatype
+print(all_same_datatype(["a", "b", "c"]))    # True, because string datatype
+print(all_same_datatype(["a", 10, True]))    # False, beacuse string, int, boolen datatype
+
+# 3. Write a function which check if provided variable is a valid python variable
+
+print("----------- check valid python identifier ----------")
+import keyword
+
+def is_valid_variable(name):
+    return name.isidentifier() and not keyword.iskeyword(name)
+
+print(is_valid_variable("age"))        # True
+print(is_valid_variable("first_name")) # True
+print(is_valid_variable("1name"))      # False (cannot start with digit)
+print(is_valid_variable("my-var"))     # False (- not allowed)
+print(is_valid_variable("for"))        # False (reserved keyword)
+
+
+'''
+5. Go to the data folder and access the countries-data.py file.
+
+    * Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in
+      descending order
+
+    * Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order.
+'''
+
+
+
+# 1. 
+
+print("------------- top 10 common lang -------------------")
+from collections import Counter
+from data.countries_data import countries_data
+
+def most_spoken_languages(countries, top_n=10):
+    language_list = []
+
+    # Collect all languages
+    for country in countries:
+        language_list.extend(country["languages"])
+
+    # Count all languages
+    lang_count = Counter(language_list)
+
+    return lang_count.most_common(top_n)
+
+print(most_spoken_languages(countries_data, 10))
+print(most_spoken_languages(countries_data, 20))
+
+print("----------- top populated country ----------------")
+def most_populated_countries(countries, top_n=5):
+    sorted_countries = sorted(
+        countries,
+        key=lambda x: x["population"],
+        reverse=True
+    )
+
+    result = []
+    for country in sorted_countries[:top_n]:
+        result.append((country["name"], country["population"]))
+
+    return result
+
+print("\nTop 5 Populated Countries:\n")
+print(most_populated_countries(countries_data, 5))
+   
+    
