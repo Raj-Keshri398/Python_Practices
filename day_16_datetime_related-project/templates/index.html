@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date Time Calculator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Date Time Calculator</h2>
+
+    <form method="POST">
+        <input type="number" name="day" placeholder="Day" required>
+        <input type="number" name="month" placeholder="Month" required>
+        <input type="number" name="year" placeholder="Year" required>
+        <input type="number" name="hour" placeholder="Hour" required>
+        <input type="number" name="minute" placeholder="Minute" required>
+        
+        <button type="submit">Calculate</button>
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <p><b>User Date:</b> {{ result.user_date }}</p>
+        <p><b>Current Date:</b> {{ result.current_date }}</p>
+        <p><b>Difference:</b> {{ result.days }} days, {{ result.seconds }} seconds</p>
+    </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
