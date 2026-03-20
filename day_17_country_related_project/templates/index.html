@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Country Info App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌍 Country Info Finder</h1>
+
+    <form method="POST" class="search-box">
+        <input type="text" name="country" placeholder="Enter country name..." required>
+        <button type="submit">Search</button>
+    </form>
+
+    {% if result.error %}
+        <p class="error">{{ result.error }}</p>
+    {% endif %}
+
+    {% if result.name %}
+        <div class="card">
+
+            <div class="top-section">
+                <h2>{{ result.name }}</h2>
+                <img src="{{ result.flag }}" class="flag">
+            </div>
+
+            <div class="grid">
+
+                <div class="box">
+                    <h3>🌍 Basic Info</h3>
+                    <p><b>Capital:</b> {{ result.capital }}</p>
+                    <p><b>Region:</b> {{ result.region }}</p>
+                    <p><b>Sub Region:</b> {{ result.subregion }}</p>
+                </div>
+
+                <div class="box">
+                    <h3>📊 Population</h3>
+                    <p><b>Total:</b> {{ result.population }}</p>
+                    <p><b>Male:</b> {{ result.male }}</p>
+                    <p><b>Female:</b> {{ result.female }}</p>
+                    <p><b>Below 18:</b> {{ result.below_18 }}</p>
+                    <p><b>Above 18:</b> {{ result.above_18 }}</p>
+                </div>
+
+                <div class="box">
+                    <h3>📍 Location</h3>
+                    <p><b>Latitude:</b> {{ result.lat }}</p>
+                    <p><b>Longitude:</b> {{ result.lng }}</p>
+                </div>
+
+            </div>
+
+            <div class="history">
+                <h3>📜 History</h3>
+                <p>{{ result.history }}</p>
+            </div>
+
+        </div>
+    {% endif %}
+</div>
+
+</body>
+</html>
