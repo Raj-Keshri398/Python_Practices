@@ -167,3 +167,196 @@ print(re.split('\n', txt)) # splitting using \n - end of line symbol
 
 
 
+# Writing RegEx Patterns
+
+# To declare a string variable we use a single or double quote. To declare RegEx variable 
+# r''. The following pattern only identifies apple with lowercase, to make it case insensitive either
+# we should rewrite our pattern or we should add a flag.
+
+print("--------------------------------------------------------------------")
+
+import re
+
+regex_pattern = r'apple'
+txt = 'Apple and apple are fruits'
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['apple']
+
+regex_pattern = r'[Aa]pple'
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['Apple', 'apple']
+
+print("--------------------------------------------------------------------")
+
+
+# Square Bracket
+# Let us use square bracket to include lower and upper case letters in our pattern.
+#  We can also use a flag to ignore the case sensitivity of the pattern.
+
+regex_pattern = r'[Aa]pple'
+txt = 'Apple and apple are fruits'
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['Apple', 'apple']
+
+print("--------------------------------------------------------------------")
+
+# Escape character(\) in RegEx
+
+regex_pattern = r'\d'  # \d is used to find digits in a string
+txt = 'This regular expression example was made in january 2020.'
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['2', '0', '2', '0']
+
+
+print("--------------------------------------------------------------------")
+
+# One or more times(+)
+regex_pattern = r'\d+'  # \d+ is used to find digits in a string
+txt = 'This regular expression example was made in 1 january 2020.'
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['2020']
+
+print("--------------------------------------------------------------------")
+
+# Period(.)
+
+regex_pattren = r'he..'  # . is used to find any character except new line
+txt = 'hello world, hey you, helo, heo'
+matches = re.findall(regex_pattren, txt)
+print(matches)  # ['hello', 'hey', 'helo']
+
+print("--------------------------------------------------------------------")
+
+# Zero or more times(*)
+
+regex_pattern = r'[a].*'  # . any character, * any character zero or more times Apple and banana are fruits In this pattern we are looking for a string that starts with a and followed by any character zero or more times
+txt = '''Apple and banana are fruits'''
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['and banana are fruits']
+
+
+print("--------------------------------------------------------------------")
+
+# Zero or one time(?)
+
+txt = '''I am not sure if there is a convention how to write the word e-mail.
+Some people write it as email others may write it as Email or E-mail.'''
+
+regex_pattern = r'[Ee]-?mail'  # -? is used to find - zero or one time
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['e-mail', 'email', 'Email', 'E-mail']
+
+print("--------------------------------------------------------------------")
+
+# Quantifier in RegEx
+# We can specify the length of the substring we are looking for in a text, using a curly bracket. 
+# Let us imagine, we are interested in a substring with a length of 4 characters:
+
+txt = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021'
+regex_pattern = r'\d{4}' # \d{4} is used to find digits with a length of 4
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['2019', '2021']
+
+txt = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021'
+regex_pattern = r'\d{1,4}' # \d{1,4} is used to find digits with a length of 1 to 4
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['6', '2019', '8', '2021']
+
+print("--------------------------------------------------------------------")
+
+# Cart ^
+
+# start
+
+txt = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021'
+regex_pattern = r'^This'  # ^ is used to find a string that starts with This
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['This']
+
+# Negation
+
+txt = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021'
+regex_pattern = r'[^A-Za-z ]+'  # ^ in set character means negation, not A to Z, not a to z, no space
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['6,', '2019', '8', '2021']
+
+# ---------------------------------------  Questions ---------------------------------------
+
+# 1. What is the most frequent word in the following paragraph?
+
+
+import re
+from collections import Counter
+
+paragraph = '''I love teaching. If you do not love teaching what else can you love.
+I love Python if you do not love something which can give you all the capabilities 
+to develop an application what else can you love.'''
+
+words = re.findall(r'\w+', paragraph.lower())
+freq = Counter(words)
+
+print(freq.most_common(1))
+
+for word, count in freq.items():
+    print(f'{word}: {count}')
+
+for word, count in freq.most_common():
+    print({word: count})
+
+
+# 2. The position of some particles on the horizontal x-axis are -12, -4, -3 and -1 in the negative 
+# direction, 0 at origin, 4 and 8 in the positive direction. Extract these numbers from this whole
+#  text and find the distance between the two furthest particles.
+
+
+print("----------------------------Question 2 ----------------------------------------")
+
+import re
+txt = '''The position of some particles on the horizontal x-axis are -4, -12, -3 and -1 
+in the negative direction, 0 at origin, 4 and 8 in the positive direction.'''
+
+numbers = re.findall(r'-?\d+', txt)
+
+points = [int(num) for num in numbers]
+sorted_points = sorted(points)
+distance = sorted_points[-1] - sorted_points[0]
+
+print(f'Points : {points}')
+print(f'Sorted Points : {sorted_points}')
+print(f'Distance : {distance}')
+
+
+print("----------------------------Question 3 ----------------------------------------")
+
+# 3. Write a pattern which identifies if a string is a valid python variable
+
+import re
+
+def is_valid_variable(s):
+    pattern = r'^[a-zA-Z_][a-zA-Z0-9_]*$'
+
+    if re.fullmatch(pattern, s):
+        return True
+    else:
+        return False
+
+print(is_valid_variable('first_name')) # True
+print(is_valid_variable('first-name')) # False
+print(is_valid_variable('1first_name')) # False
+print(is_valid_variable('firstname1')) # True
+
+
+print("----------------------------Question 4 ----------------------------------------")
+
+# 4. Clean the following text. After cleaning, count three most frequent words in the string.
+
+import re
+
+sentence = '''%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding 
+as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs.
+%Do@es thi%s mo@tivate yo@u to be a tea@cher!?'''
+
+matches = re.sub(r'[^a-zA-Z\s.]', '', sentence)
+print(matches)
+
+
