@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person gender="male">
+    <name>kumar</name>
+    <age>25</age>
+    <country>India</country>
+    <skills>
+        <skill>Python</skill>
+        <skill>JavaScript</skill>
+        <skill>SQL</skill>
+    </skills>
+</person>
