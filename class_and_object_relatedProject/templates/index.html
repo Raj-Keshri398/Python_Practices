@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Finance Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>💰 Finance Dashboard</h1>
+
+    <input id="amount" placeholder="Amount">
+    <input id="desc" placeholder="Description">
+
+    <select id="type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+    </select>
+
+    <button onclick="addData()">Add</button>
+
+    <div class="summary">
+        <h2>Summary</h2>
+        <p>Income: <span id="income">0</span></p>
+        <p>Expense: <span id="expense">0</span></p>
+        <p>Balance: <span id="balance">0</span></p>
+    </div>
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
