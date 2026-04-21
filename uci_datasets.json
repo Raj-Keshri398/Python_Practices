@@ -1,0 +1,4825 @@
+[
+    {
+        "Name": "Abalone",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Adult",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Annealing",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Anonymous Microsoft Web Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Arrhythmia",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Artificial Characters",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Audiology (Original)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Audiology (Standardized)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Auto MPG",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Automobile",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Badges",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Balance Scale",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Balloons",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Breast Cancer",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Breast Cancer Wisconsin (Original)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Breast Cancer Wisconsin (Prognostic)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Breast Cancer Wisconsin (Diagnostic)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Pittsburgh Bridges",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Car Evaluation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Census Income",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Chess (King-Rook vs. King-Knight)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Chess (King-Rook vs. King-Pawn)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Chess (King-Rook vs. King)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Chess (Domain Theories)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bach Chorales",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Connect-4",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Credit Approval",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Japanese Credit Screening",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Computer Hardware",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Contraceptive Method Choice",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Covertype",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cylinder Bands",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dermatology",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Diabetes",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "DGP2 - The Second Data Generation Program",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Document Understanding",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "EBL Domain Theories",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Echocardiogram",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Ecoli",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Flags",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Function Finding",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Glass Identification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Haberman's Survival",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Hayes-Roth",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Heart Disease",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Hepatitis",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Horse Colic",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ICU",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Image Segmentation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Internet Advertisements",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Ionosphere",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Iris",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ISOLET",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Kinship",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Labor Relations",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "LED Display Domain",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Lenses",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Letter Recognition",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Liver Disorders",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Logic Theorist",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Lung Cancer",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Lymphography",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Mechanical Analysis",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Meta-data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Mobile Robots",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Molecular Biology (Promoter Gene Sequences)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Molecular Biology (Protein Secondary Structure)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Molecular Biology (Splice-junction Gene Sequences)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MONK's Problems",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Moral Reasoner",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Multiple Features",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Mushroom",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Musk (Version 1)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Musk (Version 2)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Nursery",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Othello Domain Theory",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Page Blocks Classification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Optical Recognition of Handwritten Digits",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Pen-Based Recognition of Handwritten Digits",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Post-Operative Patient",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Primary Tumor",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Prodigy",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Qualitative Structure Activity Relationships",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Quadruped Mammals",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Servo",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Shuttle Landing Control",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Solar Flare",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Soybean (Large)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Soybean (Small)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Challenger USA Space Shuttle O-Ring",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Low Resolution Spectrometer",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Spambase",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SPECT Heart",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SPECTF Heart",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sponge",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Statlog Project",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Student Loan Relational",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Teaching Assistant Evaluation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Tic-Tac-Toe Endgame",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Thyroid Disease",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Trains",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "University",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Congressional Voting Records",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Water Treatment Plant",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Waveform Database Generator (Version 1)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Waveform Database Generator (Version 2)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wine",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Yeast",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Zoo",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Undocumented",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Twenty Newsgroups",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Australian Sign Language Signs",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Australian Sign Language Signs (High Quality)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "US Census Data (1990)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Census-Income (KDD)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Coil 1999 Competition Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Corel Image Features",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "E. Coli Genes",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "EEG Database",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "El Nino",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Entree Chicago Recommendation Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CMU Face Images",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Insurance Company Benchmark (COIL 2000)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Internet Usage Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "IPUMS Census Database",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Japanese Vowels",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "KDD Cup 1998",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "KDD Cup 1999 Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "M. Tuberculosis Genes",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Movie",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MSNBC.com Anonymous Web Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "NSF Research Award Abstracts 1990-2003",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Pioneer-1 Mobile Robot Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Pseudo Periodic Synthetic Time Series",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Reuters-21578 Text Categorization Collection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Robot Execution Failures",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Synthetic Control Chart Time Series",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Syskill and Webert Web Page Ratings",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "UNIX User Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Volcanoes on Venus - JARtool experiment",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Statlog (Australian Credit Approval)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Statlog (German Credit Data)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Statlog (Heart)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Statlog (Landsat Satellite)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Statlog (Image Segmentation)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Statlog (Shuttle)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Statlog (Vehicle Silhouettes)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Connectionist Bench (Nettalk Corpus)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Connectionist Bench (Sonar, Mines vs. Rocks)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Connectionist Bench (Vowel Recognition - Deterding Data)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Economic Sanctions",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Protein Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cloud",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CalIt2 Building People Counts",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dodgers Loop Sensor",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Poker Hand",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MAGIC Gamma Telescope",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "UJI Pen Characters",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Mammographic Mass",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Forest Fires",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Reuters Transcribed Subset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bag of Words",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Concrete Compressive Strength",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Hill-Valley",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Arcene",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dexter",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dorothea",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gisette",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Madelon",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Ozone Level Detection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Abscisic Acid Signaling Network",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Parkinsons",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Character Trajectories",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Blood Transfusion Service Center",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "UJI Pen Characters (Version 2)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Semeion Handwritten Digit",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SECOM",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Plants",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Libras Movement",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Concrete Slump Test",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Communities and Crime",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Acute Inflammations",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wine Quality",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "URL Reputation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "p53 Mutants",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Parkinsons Telemonitoring",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Demospongiae",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Opinosis Opinion / Review",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Breast Tissue",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cardiotocography",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wall-Following Robot Navigation Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Spoken Arabic Digit",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Localization Data for Person Activity",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "AutoUniv",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Steel Plates Faults",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MiniBooNE particle identification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Year Prediction MSD",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PEMS-SF",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "OpinRank Review Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Relative location of CT slices on axial axis",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Online Handwritten Assamese Characters Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PubChem Bioassay Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Record Linkage Comparison Patterns",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Communities and Crime Unnormalized",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Vertebral Column",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "EMG Physical Action Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Vicon Physical Action Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Amazon Commerce Reviews",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Amazon Access Samples",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Reuter_50_50",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Farm Ads",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "DBWorld e-mails",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "KEGG Metabolic Relation Network (Directed)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "KEGG Metabolic Reaction Network (Undirected)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bank Marketing",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "YouTube Comedy Slam Preference Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas Sensor Array Drift Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ILPD (Indian Liver Patient Dataset)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "OPPORTUNITY Activity Recognition",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Nomao",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SMS Spam Collection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Skin Segmentation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Planning Relax",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PAMAP2 Physical Activity Monitoring",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Restaurant & consumer data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CNAE-9",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Individual Household Electric Power Consumption",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Seeds",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Northix",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "QtyT40I10D100K",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Legal Case Reports",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Human Activity Recognition Using Smartphones",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "One-hundred plant species leaves data set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Energy Efficiency",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Yacht Hydrodynamics",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Fertility",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Daphnet Freezing of Gait",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "3D Road Network (North Jutland, Denmark)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ISTANBUL STOCK EXCHANGE",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Buzz in social media ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "First-order theorem proving",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wearable Computing: Classification of Body Postures and Movements (PUC-Rio)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas sensor arrays in open sampling settings",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Climate Model Simulation Crashes",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MicroMass",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "QSAR biodegradation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "BLOGGER",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Daily and Sports Activities",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "User Knowledge Modeling",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Reuters RCV1 RCV2 Multilingual, Multiview Text Categorization Test collection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "NYSK",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Turkiye Student Evaluation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ser Knowledge Modeling Data (Students' Knowledge Levels on DC Electrical Machines)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "EEG Eye State",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Physicochemical Properties of Protein Tertiary Structure",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "seismic-bumps",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Banknote Authentication",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "USPTO Algorithm Challenge, run by NASA-Harvard Tournament Lab and TopCoder    Problem: Pat",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "YouTube Multiview Video Games Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas Sensor Array Drift at Different Concentrations",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Activities of Daily Living (ADLs) Recognition Using Binary Sensors",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SkillCraft1 Master Table Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Weight Lifting Exercises monitored with Inertial Measurement Units",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SML2010",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bike Sharing",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Predict keywords activities in a online social media",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Thoracic Surgery Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "EMG dataset in Lower Limb",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SUSY",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HIGGS",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Qualitative_Bankruptcy",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "LSVT Voice Rehabilitation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dataset for ADL Recognition with Wrist-worn Accelerometer",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wilt",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "User Identification From Walking Activity",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Activity Recognition from Single Chest-Mounted Accelerometer",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Leaf",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dresses_Attribute_Sales",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Tamilnadu Electricity Board Hourly Readings",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Airfoil Self-Noise",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wholesale customers",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Twitter Data set for Arabic Sentiment Analysis",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Combined Cycle Power Plant",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Urban Land Cover",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Diabetes 130-US Hospitals for Years 1999-2008",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bach Choral Harmony",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "StoneFlakes",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Tennis Major Tournament Match Statistics",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Parkinson's Speech with Multiple Types of Sound Recordings",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gesture Phase Segmentation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Perfume Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "BlogFeedback",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "REALDISP Activity Recognition Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Newspaper and magazine images segmentation dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "AAAI 2014 Accepted Papers",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas sensor array under flow modulation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas sensor array exposed to turbulent gas mixtures",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "UJIIndoorLoc",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sentence Classification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dow Jones Index",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "sEMG for Basic Hand movements",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "AAAI 2013 Accepted Papers",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Geographical Origin of Music",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Condition Based Maintenance of Naval Propulsion Plants",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Grammatical Facial Expressions",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "NoisyOffice",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MHEALTH",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Student Performance",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ElectricityLoadDiagrams20112014",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas sensor array under dynamic gas mixtures",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "microblogPCU",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Firm-Teacher_Clave-Direction_Classification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dataset for Sensorless Drive Diagnosis",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "TV News Channel Commercial Detection Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Phishing Websites",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Greenhouse Gas Observing Network",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Diabetic Retinopathy Debrecen",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HIV-1 protease cleavage",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sentiment Labelled Sentences",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Online News Popularity",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Forest type mapping",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "wiki4HE",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Online Video Characteristics and Transcoding Time Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Chronic Kidney Disease",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Machine Learning based ZZAlpha Ltd. Stock Recommendations 2012-2014",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Folio",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Taxi Service Trajectory - Prediction Challenge, ECML PKDD 2015",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cuff-Less Blood Pressure Estimation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Smartphone-Based Recognition of Human Activities and Postural Transitions",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Mice Protein Expression",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "UJIIndoorLoc-Mag",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Heterogeneity Activity Recognition",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Educational Process Mining (EPM): A Learning Analytics Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HEPMASS",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Indoor User Movement Prediction from RSS data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Open University Learning Analytics dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Default of Credit Card Clients",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Mesothelioma's disease data set ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Online Retail",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SIFT10M",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "GPS Trajectories",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Detect Malacious Executable(AntiVirus)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Occupancy Detection ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Improved Spiral Test Using Digitized Graphics Tablet for Monitoring Parkinson's Disease",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "News Aggregator",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Air Quality",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Twin gas sensor arrays",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas sensors for home activity monitoring",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Facebook Comment Volume",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Smartphone Dataset for Human Activity Recognition (HAR) in Ambient Assisted Living (AAL)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Polish Companies Bankruptcy",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Activity Recognition system based on Multisensor data fusion (AReM)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dota2 Games Results",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Facebook Metrics",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "UbiqLog (smartphone lifelogging)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "NIPS Conference Papers 1987-2015",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HTRU2",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Drug Consumption (Quantified)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Appliances Energy Prediction",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Miskolc IIS Hybrid IPS",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "KDC-4007 dataset Collection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Geo-Magnetic field and WLAN dataset for indoor localisation from wristband and smartphone",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "DrivFace",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Website Phishing",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "YouTube Spam Collection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Beijing PM2.5",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cargo 2000 Freight Tracking and Tracing",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cervical Cancer (Risk Factors)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Quality Assessment of Digital Colposcopies",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "KASANDR",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "FMA: A Dataset For Music Analysis",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Air quality",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Devanagari Handwritten Character Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Stock Portfolio Performance",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MoCap Hand Postures",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Early biomarkers of Parkinson\u2019s disease based on natural connected speech",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Data for Software Engineering Teamwork Assessment in Education Setting",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PM2.5 Data of Five Chinese Cities",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Parkinson Disease Spiral Drawings Using Digitized Graphics Tablet",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sales Transactions Weekly",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Las Vegas Strip",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Eco-hotel",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MEU-Mobile KSD",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Crowdsourced Mapping",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "gene expression cancer RNA-Seq",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Hybrid Indoor Positioning Dataset from WiFi RSSI, Bluetooth and magnetometer",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "chestnut - LARVIC",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Burst Header Packet (BHP) flooding attack on Optical Burst Switching (OBS) Network",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Motion Capture Hand Postures",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Anuran Calls (MFCCs)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "TTC-3600: Benchmark dataset for Turkish text categorization",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gastrointestinal Lesions in Regular Colonoscopy",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Daily Demand Forecasting Orders",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Paper Reviews",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "extention of Z-Alizadeh sani dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Z-Alizadeh Sani",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dynamic Features of VirusShare Executables",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "IDA2016Challenge",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "DSRC Vehicle Communications",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Mturk User-Perceived Clusters over Images",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Character Font Images",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "DeliciousMIL: A Data Set for Multi-Label Multi-Instance Learning with Instance Labels",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Autistic Spectrum Disorder Screening Data for Children  ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Autistic Spectrum Disorder Screening Data for Adolescent   ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "APS Failure at Scania Trucks",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wireless Indoor Localization",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HCC Survival",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CSM (Conventional and Social Media Movies) Dataset 2014 and 2015",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "University of Tehran Question Dataset 2016 (UTQD.2016)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Autism Screening Adult",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Activity recognition with healthy older people using a batteryless wearable sensor",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Immunotherapy Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cryotherapy Dataset ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "OCT data & Color Fundus Images of Left & Right Eyes",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Discrete Tone Image Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "News Popularity in Multiple Social Media Platforms",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Ultrasonic flowmeter diagnostics",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ICMLA 2014 Accepted Papers Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "BLE RSSI Dataset for Indoor localization and Navigation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Container Crane Controller Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Residential Building",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Health News in Twitter",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "chipseq",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SGEMM GPU kernel performance",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Repeat Consumption Matrices",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "detection_of_IoT_botnet_attacks_N_BaIoT",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Absenteeism at work",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SCADI",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Condition monitoring of hydraulic systems",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Carbon Nanotubes",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Optical Interconnection Network ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sports articles for objectivity analysis",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Breast Cancer Coimbra",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "GNFUV Unmanned Surface Vehicles Sensor Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dishonest Internet users Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Victorian Era Authorship Attribution",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Simulated Falls and Daily Living Activities Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Multimodal Damage Identification for Humanitarian Computing",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "EEG Steady-State Visual Evoked Potential Signals",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Roman Urdu Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Avila",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PANDOR",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Drug Reviews (Druglib.com)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Physical Unclonable Functions",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Superconductivty Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "WESAD (Wearable Stress and Affect Detection)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "GNFUV Unmanned Surface Vehicles Sensor Data Set 2",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Student Academics Performance",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Online Shoppers Purchasing Intention Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PMU-UD",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Parkinson's Disease Classification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Electrical Grid Stability Simulated Data ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Caesarian Section Classification Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "BAUM-1",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "BAUM-2",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Audit Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "BuddyMove Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Real Estate Valuation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Somerville Happiness Survey",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "2.4 GHZ Indoor Channel Measurements",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "EMG Data for Gestures",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Parking Birmingham",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Behavior of the urban traffic of the city of Sao Paulo in Brazil",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Travel Reviews",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Travel Review Ratings",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Rice Leaf Diseases",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas sensor array temperature modulation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Facebook Live Sellers in Thailand",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Parkinson Dataset with replicated acoustic features ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Metro Interstate Traffic Volume",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Query Analytics Workloads Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wave Energy Converters",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PPG-DaLiA",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Alcohol QCM Sensor",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Incident management process enriched event log",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Opinion Corpus for Lebanese Arabic Reviews (OCLAR)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MEx",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Beijing Multi-Site Air Quality",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Online Retail II",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Hepatitis C Virus (HCV) for Egyptian patients",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "QSAR fish toxicity",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "QSAR aquatic toxicity",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Human Activity Recognition from Continuous Ambient Sensor Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "WISDM Smartphone and Smartwatch Activity and Biometrics Dataset ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "QSAR oral toxicity",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "QSAR androgen receptor",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "QSAR Bioconcentration classes dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "QSAR fish bioconcentration factor (BCF)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "A study of  Asian Religious and Biblical Texts",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Real-time Election Results: Portugal 2019",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bias correction of numerical prediction model temperature forecast",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bar Crawl: Detecting Heavy Drinking",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Kitsune Network Attack",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Shoulder Implant X-Ray Manufacturer Classification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Speaker Accent Recognition",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Heart Failure Clinical Records",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Deepfakes: Medical Image Tamper Detection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "selfBACK",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "South German Credit",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Exasens",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Swarm Behaviour",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Crop mapping using fused optical-radar data set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bitcoin Heist Ransomware Address",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Facebook Large Page-Page Network",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Amphibians",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Early Stage Diabetes Risk Prediction",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Turkish Spam V01",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Stock keeping units",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Detect Malware Types",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wave Energy Converters",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Youtube cookery channels viewers comments in Hinglish",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Pedestrians in Traffic",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cervical Cancer Behavior Risk",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sattriya_Dance_Single_Hand_Gestures Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Divorce Predictors data set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "3W dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Malware static and dynamic features VxHeaven and Virus Total",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Internet Firewall Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "User Profiling and Abusive Language Detection Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Estimation of Obesity Levels Based On Eating Habits and Physical Condition ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Rice (Cammeo and Osmancik)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Vehicle routing and scheduling problems",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Algerian Forest Fires",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Breath Metabolomics",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Horton General Hospital",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "UrbanGB, urban road accidents coordinates labelled by the urban center",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas Turbine CO and NOx Emission Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Activity recognition using wearable physiological measurements",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Clickstream Data for Online Shopping",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CNNpred: CNN-based stock market prediction using a diverse set of variables",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Apartment for Rent Classified",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": ": Simulated Data set of Iraqi tourism places",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Nasarian CAD Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Seoul Bike Sharing Demand",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Person Classification Gait Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Shill Bidding Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Iranian Churn",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Unmanned Aerial Vehicle (UAV) Intrusion Detection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bone marrow transplant: children",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Exasens",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "COVID-19 Surveillance",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Refractive errors",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CLINC150",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HCV data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Taiwanese Bankruptcy Prediction",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "South German Credit",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "IIWA14-R820-Gazebo-Dataset-10Trajectories",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Guitar Chords finger positions",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Russian Corpus of Biographical Texts",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Codon usage",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Intelligent Media Accelerometer and Gyroscope (IM-AccGyro) Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Myocardial infarction complications",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Hungarian Chickenpox Cases",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Simulated data for survival modelling",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Student Performance on an Entrance Examination",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Chemical Composition of Ceramic Samples",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Labeled Text Forum Threads Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Stock keeping units",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "BLE RSSI dataset for Indoor localization",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Basketball dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "GitHub MUSAE",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Anticancer peptides",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gender by Name",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "LastFM Asia Social Network",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wheat Kernels",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Productivity Prediction of Garment Employees",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Multi-view Brain Networks",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "LastFM Asia Social Network",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wisesight Sentiment Corpus",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "AI4I 2020 Predictive Maintenance Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dry Bean",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "In-Vehicle Coupon Recommendation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gait Classification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wikipedia Math Essentials",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Wikipedia Math Essentials",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Synchronous Machine",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Traffic Flow Forecasting",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Hierarchical Sales Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Smartphone Dataset for Anomaly Detection in Crowds",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MNIST Database of Handwritten Digits",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Palmer Penguins",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CIFAR-10",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "2D elastodynamic metamaterials",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ImageNet",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sundanese Twitter Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Open Web Text Corpus",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Predict Students' Dropout and Academic Success",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Auction Verification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "LT-FS-ID: Intrusion detection in WSNs",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bengali Hate Speech Detection Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "NATICUSdroid (Android Permissions)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Toxicity",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Period Changer",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Physical Therapy Exercises",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "DARWIN",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Water Quality Prediction",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Traffic Flow Forecasting",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cisco Secure Workload Networks of Computing Hosts",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SoDA",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MaskReminder",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "181 early modern English plays: Transcriptions of early editions in TEI encoding",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sirtuin6 Small Molecules",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Similarity Prediction",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bosch CNC Machining Dataset ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Dataset based on UWB for Clinical Establishments",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Accelerometer Gyro Mobile Phone",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Glioma Grading Clinical and Mutation Features",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Multivariate Gait Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Land Mines",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Turkish User Reviews",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "NASA Flood Extent Detection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "DeFungi",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HARTH",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HAR70+",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MetroPT-3 Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Single Elder Home Monitoring: Gas and Position",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "TUNADROMD",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Sepsis Survival Minimal Clinical Records",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Visegrad Group companies data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Product Classification and Clustering",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Average Localization Error (ALE) in sensor node localization process in WSNs",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "TamilSentiMix",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Accelerometer",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Pedal Me Bicycle Deliveries",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Secondary Mushroom",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Power Consumption of Tetouan City",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Raisin",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Steel Industry Energy Consumption",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gender Gap in Spanish WP",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Non Verbal Tourists",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Roman Urdu Sentiment Analysis Dataset (RUSAD)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "TUANDROMD (Tezpur University Android Malware Dataset)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Higher Education Students Performance Evaluation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Risk Factor Prediction of Chronic Kidney Disease",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Rocket League Skillshots",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Image Recognition Task Execution Times in Mobile Edge Computing",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "REJAFADA",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Influenza Outbreak Event Prediction via Twitter",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Turkish Music Emotion",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Maternal Health Risk",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Room Occupancy Estimation",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "9mers from cullpdb",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Shell Commands Used by Participants of Hands-on Cybersecurity Training",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "MOVER: Medical Informatics Operating Room Vitals and Events Repository",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Cirrhosis Patient Survival Prediction",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Ajwa or Medjool",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "SUPPORT2",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Large-scale Wave Energy Farm",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "National Health and Nutrition Health Survey 2013-2014 (NHANES) Age Prediction Subset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "AIDS Clinical Trials Group Study 175",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CDC Diabetes Health Indicators",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "TCGA Kidney Cancers",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Bongabdo",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "RealWaste",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Recipe Reviews and User Feedback",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Forty Soybean Cultivars from Subsequent Harvests",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Differentiated Thyroid Cancer Recurrence",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Jute Pest",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Infrared Thermography Temperature",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "National Poll on Healthy Aging (NPHA)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Regensburg Pediatric Appendicitis",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "RT-IoT2022 ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "UR3 CobotOps",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "An eye on the vine - a dataset for fungi segmentation in microscopic vine wood images",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PhiUSIIL Phishing URL (Website)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Printed Circuit Board Processed Image",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Micro Gas Turbine Electrical Energy Prediction",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "ApisTox",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Synthetic Circle Data Set",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Turkish Crowdfunding Startups",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Assessing Mathematics Learning in Higher Education",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "CAN-MIRGU",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Twitter Geospatial Data",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gas sensor array low-concentration ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Lattice-physics (PWR fuel assembly neutronics simulation results)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PIRvision_FoG_presence_detection",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Drug Induced Autoimmunity Prediction ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Inflation Research Abstracts Classification",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "RecGym: Gym Workouts Recognition Dataset with IMU and Capacitive Sensor",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "BEED: Bangalore EEG Epilepsy Dataset ",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Gallstone",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "High-Resolution Load Dataset from Smart Meters Across Various Cities in Morocco",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Neurofibromatosis Type 1; Clinical Symptoms of Familial and Sporadic Cases",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "PGCB Hourly Generation Dataset (Bangladesh)",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Paddy Dataset",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Amaranthus Viridis leaves",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "COREVQA",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "HLS-CMDS: Heart and Lung Sounds Dataset Recorded from a Clinical Manikin using Digital Stethoscope",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    },
+    {
+        "Name": "Amazon Product and Google Locations Reviews",
+        "Task": null,
+        "Instances": null,
+        "Features": null,
+        "Type": null
+    }
+]
