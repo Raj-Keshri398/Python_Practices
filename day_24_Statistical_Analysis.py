@@ -177,6 +177,211 @@ print(string_array)
 print(string_array.dtype)
 
 
+# Indexing and slicing of numpy array
+# Indexing and slicing of numpy array is similar to python list. We can use the same
+
+# Indexing
+print(nums[0]) # first element
+print(nums[1]) # second element
+print(nums[-1]) # last element
+print(nums[-2]) # second last element
+
+
+# Mathematical Operation using numpy
+
+'''
+NumPy array is not like exactly like python list. To do mathematical operation in Python list we have to loop through the items but numpy can allow to do any mathematical operation without looping. Mathematical Operation:
+
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Modules (%)
+Floor Division(//)
+Exponential(**)
+
+'''
+
+# Addition
+
+arr1 = np.array([1, 2, 3, 4, 5])
+print("Original Array for addition : ", arr1)
+arr2 = np.array([6, 7, 8, 9, 10])
+print("Second Array array for addition : ", arr2)
+
+ten_plus_original = arr1 + 10
+print("Ten plus original : ", ten_plus_original)
+print("Addition : ", arr1 + arr2)
+
+# Subtraction
+
+arr1 = np.array([1, 2, 3, 4, 5])
+print("Original Array for subtraction : ", arr1)
+arr2 = np.array([6, 7, 8, 9, 10])
+print("Second Array for subtraction : ", arr2)
+ten_minus_original = arr1 - 10
+print("Ten minus original : ", ten_minus_original)
+print("Subtraction : ", arr1 - arr2)
+
+# Multiplication
+
+arr1 = np.array([1, 2, 3, 4, 5])
+print("Original Array for multiplication : ", arr1)
+arr2 = np.array([6, 7, 8, 9, 10])
+print("Second Array for multiplication : ", arr2)
+ten_times_original = arr1 * 10
+print("Ten times original : ", ten_times_original)
+print("Multiplication : ", arr1 * arr2)
+
+# Division
+
+arr1 = np.array([1, 2, 3, 4, 5])
+print("Original Array for division : ", arr1)   
+arr2 = np.array([6, 7, 8, 9, 10])
+print("Second Array for division : ", arr2)
+ten_division_original = arr1 / 10
+print("Ten division original : ", ten_division_original)
+print("Division : ", arr1 / arr2)
+
+
+# Modulus : Find the remainder of the division
+
+arr1 = np.array([12, 24, 35, 45, 56])
+print("Original Array for modulus : ", arr1)
+arr2 = np.array([6, 7, 8, 9, 10])
+print("Second Array for modulus : ", arr2)
+ten_modulus_original = arr1 % 10
+print("Ten modulus original : ", ten_modulus_original)
+print("Modulus : ", arr1 % arr2)
+
+# Floor Division : Find the quotient of the division
+
+arr1 = np.array([12, 24, 35, 45, 56])
+print("Original Array for floor division : ", arr1)
+arr2 = np.array([6, 7, 8, 9, 10])
+print("Second Array for floor division : ", arr2)
+ten_floor_division_original = arr1 // 10
+print("Ten floor division original : ", ten_floor_division_original)
+print("Floor Division : ", arr1 // arr2)
+
+# Exponential : Find the power of the array
+
+arr1 = np.array([1, 2, 4, 6, 7])
+print("Original Array for exponential : ", arr1)
+arr2 = np.array([5, 7, 8, 9, 10])
+print("Second Array for exponential : ", arr2)
+ten_exponential_original = arr1 ** 10
+print("Ten exponential original : ", ten_exponential_original)
+print("Exponential : ", arr1 ** arr2)
+
+# Checking data types
+
+# Int, Floor, Bool
+
+arr_int = np.array([1, 2, 3, 4, 5])
+arr_floor = np.array([1.1, 2.2, 3.3, 4.4, 5.5])
+arr_bool = np.array([-1, -3, 0, 1, 4], dtype=bool)
+
+print("Integer Array : ", arr_int.dtype)
+print("Floor Array : ", arr_floor.dtype)
+print("Boolean Array : ", arr_bool.dtype)
+
+# Converting types
+
+# int to float
+arr_int = np.array([1, 2, 3, 4, 5], dtype='float')
+print("Integer Array : ", arr_int)
+
+# float to int
+arr_float = np.array([1.1, 2.2, 3.3, 4.4, 5.5], dtype='int')
+print("Float Array : ", arr_float)
+
+# int to bool
+arr_int = np.array([1, 2, 0, 4, 5], dtype='bool')
+print("Integer Array to boolean : ", arr_int)
+
+# int to str 
+arr_int = np.array([1, 2, 3, 4, 5])
+arr_int.astype('int').astype('str')
+print("Integer Array to string : ", arr_int)
+
+# Multi-dimensional Arrays
+
+two_dimensional_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Two dimensional array : ", two_dimensional_array)
+print("Shape of two dimensional array : ", two_dimensional_array.shape)
+print("Data type of two dimensional array : ", two_dimensional_array.dtype)
+print("Size of two dimensional array : ", two_dimensional_array.size)
+print("First row of two dimensional array : ", two_dimensional_array[0])
+print("Second row of two dimensional array : ", two_dimensional_array[1])
+print("Third row of two dimensional array : ", two_dimensional_array[2])
+print("First column of two dimensional array : ", two_dimensional_array[:, 0])
+print("Second column of two dimensional array : ", two_dimensional_array[:, 1])
+print("Third column of two dimensional array : ", two_dimensional_array[:, 2])
+print(two_dimensional_array)
+
+# Slicing Numpy array
+# Slicing in numpy is similar to slicing in python list
+
+two_dimensional_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Two dimensional array : ", two_dimensional_array)
+first_two_rows_and_columns = two_dimensional_array[:2, :2]
+print("First two rows and columns : ", first_two_rows_and_columns)
+last_two_rows_and_columns = two_dimensional_array[1:, 1:]
+print("Last two rows and columns : ", last_two_rows_and_columns)
+first_row_and_last_column = two_dimensional_array[0, -1]
+print("First row and last column : ", first_row_and_last_column)
+last_row_and_first_column = two_dimensional_array[-1, 0]
+print("Last row and first column : ", last_row_and_first_column)
+
+# Reverse the row and column positions
+
+two_dimensional_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print("Two dimensional array : ", two_dimensional_array)
+reverse_row_and_column = two_dimensional_array[::-1, ::-1]
+print("Reverse row and column : ", reverse_row_and_column)
+
+# How to represent missing values ? or NaN values in numpy array or replace missing values with mean or median ?
+
+two_dimensional_array = np.array([[1, 2, 3], [4, np.nan, 6], [7, 8, 9]])
+print("Two dimensional array with NaN value : ", two_dimensional_array)
+two_dimensional_array[1, 1] = 55
+print("Two dimensional array after replacing NaN value with 55 : ", two_dimensional_array)
+
+# numpy Zeros and Ones
+zeros_array = np.zeros((3, 3), dtype=int, order='C')
+print("Zeros array : ", zeros_array)
+ones_array = np.ones((3, 3), dtype=int, order='C')
+print("Ones array : ", ones_array)
+twos_array = ones_array * 2
+print("Twos array : ", twos_array)
+
+# reshape of numpy array
+# Reshape is used to change the shape of the array without changing the data. The new shape should be 
+# compatible with the original shape. The total number of elements should be the same.
+
+# reshape()
+# flatten()
+
+reshape_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]])
+print("Original array : ", reshape_array)
+reshaped_array = reshape_array.reshape(3, 4)
+print("Reshaped array : ", reshaped_array)
+
+flattened_array = reshape_array.flatten()
+print("Flattened array : ", flattened_array)
+
+# Horizontal and vertical stacking of numpy array
+
+np_list_one = np.array([1, 2, 3])
+np_list_two = np.array([4, 5, 6])
+print("First array : ", np_list_one)
+print("Second array : ", np_list_two)
+print(np_list_one + np_list_two) # element wise addition
+print("horizontal Append : ", np.hstack((np_list_one, np_list_two)))
+print("Vertical Append : ", np.vstack((np_list_one, np_list_two)))
+
+
 
 
 
