@@ -382,6 +382,208 @@ print("horizontal Append : ", np.hstack((np_list_one, np_list_two)))
 print("Vertical Append : ", np.vstack((np_list_one, np_list_two)))
 
 
+# ======================== Generating Random Numbers ==========================
+
+#  Generate a random float  number
+
+random_float = np.random.random()
+print("Random float number : ", random_float)
+
+# Generate a random float  number between 0 and 1
+
+random_float_upto_5 = np.random.random(5)
+print("Random float numbers : ", random_float_upto_5)
+
+# Generating a random integers between 0 and 10
+random_number_between_0_and_10 = np.random.randint(0, 11)
+print("Random number between 0 and 10 : ", random_number_between_0_and_10)
+
+# Generating a random integers between 2 and 11, and creating a one row array
+random_number_between_2_and_11 = np.random.randint(2, 12, size=5)
+print("Random number between 2 and 11 : ", random_number_between_2_and_11)
+
+# Generating a random integers between 0 and 10 and creating a two dimensional array of 3 rows and 3 columns
+random_int = np.random.randint(0, 10, size=(3, 3))
+print("Random integers between 0 and 10 : ", random_int)
+
+
+# =============================== Generationg random numbers ==============================
+
+# np.random.normal(mu, sigma, size)
+
+normal_array = np.random.normal(79, 15, 80)
+print("Normal array : ", normal_array)
+
+# =============================== Numpy and Statistics ===================================
+
+# import matplotlib.pyplot as plt
+# import seaborn as sns
+# sns.set()
+# plt.hist(normal_array, color='blue', bins=10)
+# plt.title("Normal Distribution")
+
+
+# ================================ Matrix in numpy ===============================
+
+four_by_four_matrix = np.matrix(np.ones((4, 4), dtype=int))
+print("Four by four matrix : ", four_by_four_matrix)
+
+np.asarray(four_by_four_matrix)[2] = 2
+print("Four by four matrix after changing the third row to 2 : ", four_by_four_matrix)
+
+# ================================ Numpy numpy.arange() ===============================
+
+# What is Arrange?
+# Sometimes, you want to create values that are evenly spaced within a defined interval. For instance, you want to 
+# create values from 1 to 10; you can use numpy.arange() function
+
+# creating list using range(starting, stop, step)
+list_using_range = range(1, 11, 2)
+for l in list_using_range:
+    print(l)
+
+# Similar to range arange numpy.arange(start, stop, step)
+
+whole_numbers = np.arange(1, 20)
+print("Whole numbers : ", whole_numbers)
+
+natural_numbers = np.arange(1, 20, 1)
+print("Natural numbers : ", natural_numbers)
+
+odd_numbers = np.arange(1, 20, 2)
+print("Odd numbers : ", odd_numbers)
+
+even_numbers = np.arange(2, 20, 2)
+print("Even numbers : ", even_numbers)
+
+# ================================== Creating sequence of numbers using linspace and logspace ===============================
+# numpy.linspace()
+# numpy.logspace() in Python with Example
+# For instance, it can be used to create 10 values from 1 to 5 evenly spaced.
+
+np.linspace(1, 5, num=10)
+print("Evenly spaced values from 1 to 5 : ", np.linspace(1, 5, num=10))
+
+# not to include the last value in the interval
+np.linspace(1.0, 5.0, num=5, endpoint=False)
+
+print("Evenly spaced values from 1 to 5 (excluding endpoint) : ", np.linspace(1.0, 5.0, num=5, endpoint=False))
+
+# LogSpace
+# LogSpace returns even spaced numbers on a log scale. Logspace has the same parameters as np.linspace.
+
+# Syntax:
+
+# numpy.logspace(start, stop, num, endpoint)
+
+np.logspace(2, 4.0, num=4)
+print("Evenly spaced values on a log scale from 10^2 to 10^4 : ", np.logspace(2, 4.0, num=4))
+
+x = np.array([1,2, 3], dtype=np.complex128)
+print(x)
+print(x.itemsize)
+
+
+# =================================== NumPy Statistical Functions with Example ==============================
+# NumPy has quite useful statistical functions for finding minimum, maximum, mean, median, percentile,standard 
+# deviation and variance, etc from the given elements in the array. The functions are explained as follows − 
+# Statistical function Numpy is equipped with the robust statistical function as listed below.
+
+# Numpy Functions
+# Min np.min()
+# Max np.max()
+# Mean np.mean()
+# Median np.median()
+# Variance
+# Percentile
+# Standard deviation np.std()
+
+np_normal_array = np.random.normal(5, 0.5, 100)
+print("Minimum value in the array : ", np.min(np_normal_array))
+print("Maximum value in the array : ", np.max(np_normal_array))
+print("Mean value in the array : ", np.mean(np_normal_array))
+print("Median value in the array : ", np.median(np_normal_array))
+print("Standard deviation in the array : ", np.std(np_normal_array))
+print("Variance in the array : ", np.var(np_normal_array))
+print("25th percentile in the array : ", np.percentile(np_normal_array, 25))
+print("50th percentile in the array : ", np.percentile(np_normal_array, 50))
+print("75th percentile in the array : ", np.percentile(np_normal_array, 75))
+
+print(two_dimensional_array)
+print("Column with minimum value in the array : ", np.amin(two_dimensional_array, axis=0))
+print("Column with maximum value in the array : ", np.amax(two_dimensional_array, axis=0))
+print("=== row ===")
+print("Row with minimum value in the array : ", np.amin(two_dimensional_array, axis=1))
+print("Row with maximum value in the array : ", np.amax(two_dimensional_array, axis=1))
+
+
+# ============================== How to create repeating sequences? ==============================
+a = [1,2,3]
+
+# Repeat whole of 'a' two times
+print("Repeat whole of 'a' three times : ", np.tile(a, 2))
+
+# Repeat each elemnet of 'a' two times
+print("Repeat each element of 'a' three times : ", np.repeat(a, 2))
+
+# ============================= How to generate random numbers? ==============================
+
+one_random_number = np.random.random()
+print("One random number : ", one_random_number)
+
+# Random numbers between [0,1) of shape 2,3
+r = np.random.random(size=[2, 3])
+print("Random numbers between [0,1) of shape 2,3 : ", r)
+
+# Random choice from a list of character
+print(np.random.choice(['a', 'e', 'i', 'o', 'u'], size=10))
+
+
+# Random numbers between [0, 1] of shape 2, 2
+rand = np.random.rand(2, 2)
+print("Random numbers between [0, 1] of shape 2, 2 : ", rand)
+
+# Random integers between [0, 10) of shape 2,5
+rand_int = np.random.randint(0, 10, size=(5, 3))
+print("Random integers between [0, 10) of shape 2,5 : ", rand_int)
+
+# ============================  Linear Algebra  =================================
+
+# 1. dot product of two arrays
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+# 1*4 + 2*5 + 3*6 = 4 + 10 + 18 = 32
+print("Dot product of a and b : ", np.dot(a, b))
+
+# 2. NumPy Matrix Multiplication with np.matmul()
+
+h = [[1, 2], [3, 4]]
+g = [[5, 6], [7, 8]]
+print("Matrix h : ", h)
+print("Matrix g : ", g)
+#1*5 + 2*7 = 5 + 14 = 19
+print(np.matmul(h, g))
+
+new_list = [x + 2 for x in range(0, 11)]
+print("New list : ", new_list)
+
+np_arr = np.array(range(0, 11))
+print("Numpy array : ", np_arr)
+print("Numpy array plus 2 : ", np_arr + 2)
+
+# We use linear equation for quantities which have linear relationship. Let's see the example below:
+
+temp = np.array([0, 10, 20, 30, 40])
+sales = np.array([100, 200, 300, 400, 500])
+pressure = temp * 10 + 5
+print(pressure)
+
+
+
+
+
+
+
 
 
 
